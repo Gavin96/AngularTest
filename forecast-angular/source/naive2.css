@@ -86,3 +86,35 @@
 	margin-top: -5px;
 	margin-left: -8px;
 }
+
+.firstline{
+	padding-top: 40px;
+}
+
+.thirdline{
+	padding-bottom: 30px;
+}
+
+.btn_login{
+	width: 80px;
+}
+
+.Popline1,.Popline2,.Popline3,.Popline4,.Popline5{
+	padding-top: 18px;
+	margin-bottom: 10px;
+}
+
+.btn_submit{
+	margin-left: -10px;
+}
+
+.label1{
+	font-size: 16px;
+	margin-top: 4px;
+}
+
+.box1{
+	width: 30px;
+	height: 30px;
+	line-height: 35px;
+}

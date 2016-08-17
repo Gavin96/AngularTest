@@ -23,6 +23,7 @@
 	margin-left: -17px;
 	margin-top: -15px;
 	margin-bottom: -20px;
+	overflow: hidden;
 	/*margin-right: 10px;*/
 	/*height: 30px;*/	
 }
@@ -33,6 +34,7 @@
 	padding-bottom: 15px;
 	margin-bottom: -15px;
 	padding-left: 6px;
+	overflow: hidden;
 }
 .col11{
 	border-right: 2px solid #E6E6E6;
@@ -46,6 +48,7 @@
 	margin-left: -15px;
 	font-weight: bold;
 	color: #EE2C2C;
+	overflow: hidden;
 }
 .col22{
 	border-right: 2px solid #E6E6E6;
@@ -55,8 +58,12 @@
 	margin-bottom: -15px;
 	/*margin-top: 5px;*/
 	padding-top: 15px;
-	padding-left: 6px;
+	padding-left: 0px;
 	margin-left: 3px;
+	/*margin-right: 3px;*/
+	padding-right: 3px;
+	line-height: 20px;
+	overflow: hidden;
 	/*margin-right: -5px;*/
 	/*padding-right: 20px;*/
 }
@@ -67,6 +74,7 @@
 	padding-bottom: 15px;
 	margin-bottom: -15px;
 	padding-left: 6px;
+	overflow: hidden;
 }
 .col33{	
 	border-right: 2px solid #E6E6E6;
@@ -74,8 +82,14 @@
 	margin-bottom: -15px;
 	/*margin-top: 5px;*/
 	padding-top: 15px;
-	padding-left: 6px;
+	padding-left: 2px;
 	margin-left: 5px;
+	line-height: 20px;
+	overflow: hidden;
+	/*margin-right: -5px;*/
+	/*display: inline-block;*/
+	/*position: absolute;*/
+	/*margin-top: -10px;*/
 }
 .col4{	
 	border-right: 2px solid #E6E6E6;
@@ -84,6 +98,7 @@
 	padding-bottom: 15px;
 	margin-bottom: -15px;
 	padding-left: 6px;
+	overflow: hidden;
 }
 .col44{	
 	border-right: 2px solid #E6E6E6;
@@ -93,6 +108,8 @@
 	padding-top: 15px;
 	padding-left: 6px;
 	margin-left: 3px;
+	line-height: 20px;
+	overflow: hidden;
 }
 .col5{	
 	border-right: 2px solid #E6E6E6;
@@ -101,6 +118,7 @@
 	padding-bottom: 15px;
 	margin-bottom: -15px;
 	padding-left: 6px;
+	overflow: hidden;
 }
 .col55{	
 	border-right: 2px solid #E6E6E6;
@@ -110,6 +128,8 @@
 	padding-top: 15px;
 	padding-left: 6px;
 	margin-left: 4px;
+	line-height: 20px;
+	overflow: hidden;
 	/*margin-right: 2px;*/
 }
 .col6{	
@@ -119,6 +139,7 @@
 	padding-bottom: 15px;
 	margin-bottom: -15px;
 	padding-left: 6px;
+	overflow: hidden;
 }
 .col66{	
 	border-right: 2px solid #E6E6E6;
@@ -130,6 +151,8 @@
 	margin-left: 3px;
 	/*padding-right: 10px;*/
 	margin-right: -10px;
+	line-height: 20px;
+	overflow: hidden;
 }
 
 .EditBut{
@@ -140,7 +163,7 @@
 	margin-left: -8px;
 }
 
-.midcolumn{
+.midrow{
 	padding-top: 15px;
 }
 

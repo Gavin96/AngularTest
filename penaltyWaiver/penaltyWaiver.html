@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>penaltyWaiver</title>
+	<script src="./partial/penaltyWaiverController.js"></script>
+	<link rel="stylesheet" href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css">
+	<style type="text/css">
+		.head{
+			padding-top: 15px;
+		}
+		.inputrow{
+			height: 60px;
+		}
+		.bgcolor{
+			background-color:#458B00;
+			padding-top: 20px;
+			padding-bottom: 15px;	
+			font-color:white;	
+		}
+		.bodypart1{
+			/*padding-top: 40px;*/
+			margin-top: 40px;
+		}
+		.bodypart2{
+			padding-top: 10px;
+		}
+		.bodypart3{
+			padding-top: 30px;
+		}
+		.bodypart4{
+			padding-top: 20px;
+			margin-top: 20px;
+		}
+		.foot{
+			padding-top: 20px;
+			padding-bottom: 50px;
+			margin-bottom: 30px;
+		}
+		.chargetext{
+			padding-bottom: 20px;
+		}
+		.commenttext{
+			padding:10px 0;
+		}
+		.row2{
+			padding-top: 20px;
+		}
+		.newbtn{
+			background-color:#696969;
+			width: 85%;
+			height: 50px;
+		}
+		.cancelbtn{
+			padding-top: 10px;
+			padding-bottom: 10px;
+
+		}
+		span.glyphicon.glyphicon-remove{
+			width: 20px;
+		}
+		.btn:focus,
+		.btn:active:focus,
+		.btn.active:focus,
+		.btn.focus,
+		.btn:active.focus,
+		.btn.active.focus,
+		.cancelbtn {
+			outline: none;          
+		}
+		.cancelbtn {
+			border-color: white;
+			border: none;
+			background-color: white;
+		}
+		.input-test::-webkit-input-placeholder{
+			padding-top: 5px;
+			font-size: 15px;
+			font-weight: bold;
+		}
+
+		.navbar-fixed-top .navbar-inner {
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="head">
+		<div class="row">
+			<div class="col-xs-9">
+				<div style="font-weight:bold;">FEE WAIVER</div>
+				<div style="font-size:30px;font-weight:bold;">PENALTY WAIVER</div>
+			</div>
+			<div class="col-xs-3">
+				<div style="font-weight:bold;">PNR Number</div>
+				<div style="font-size:30px;">32323245</div>
+			</div>
+		</div>
+	</div>
+
+	<table class="table bodypart1">
+		<thead >
+			<tr>
+				<th style="border-color:white;">
+					<div class="row">
+						<div class="col-xs-4">
+							Passenger name
+						</div>
+						<div class="col-xs-5">
+							Ticket number
+						</div>
+						<div class="col-xs-2">
+							Cost
+						</div>
+					</div>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td style="padding:5px">
+					<div class="row">
+						<div style="font-size:30px;" class="col-xs-4">
+							John McMiller
+						</div>
+						<div class="col-xs-5">
+							<span style="font-size:30px;">12345600</span>
+							<span>Domestic</span>
+						</div>
+						<div style="font-size:30px;" class="col-xs-2">
+							$300
+						</div>
+						<div class="col-xs-1">
+							<button class="btn btn-default cancelbtn">
+								<span class="glyphicon glyphicon-remove"></span>
+							</button>
+						</div>
+					</div>
+				</td>				
+			</tr>
+			<tr>
+				<td style="padding:5px">
+					<div class="row">
+						<div style="font-size:30px;" class="col-xs-4">
+							Jone McMiller
+						</div>
+						<div class="col-xs-5">
+							<span style="font-size:30px;">12345601</span>
+							<span>Domestic</span>
+						</div>
+						<div style="font-size:30px;" class="col-xs-2">
+							$300
+						</div>
+						<div class="col-xs-1">
+							<button class="btn btn-default cancelbtn">
+								<span class="glyphicon glyphicon-remove"></span>
+							</button>
+						</div>
+					</div>
+				</td>				
+			</tr>
+			<tr>
+				<td style="padding:5px">
+					<div class="row">
+						<div style="font-size:30px;" class="col-xs-4">
+							Joe McMiller
+						</div>
+						<div class="col-xs-5">
+							<span style="font-size:30px;">12345602</span>
+							<span>Domestic</span>
+						</div>
+						<div style="font-size:30px;" class="col-xs-2">
+							$300
+						</div>
+						<div class="col-xs-1">
+							<button class="btn btn-default cancelbtn">
+								<span class="glyphicon glyphicon-remove"></span>
+							</button>
+						</div>
+					</div>
+				</td>				
+			</tr>
+			<tr>
+				<td style="padding:5px">
+					<div class="row">
+						<div style="font-size:30px;" class="col-xs-4">
+							Jamine McMiller
+						</div>
+						<div class="col-xs-5">
+							<span style="font-size:30px;">12345603</span>
+							<span>Domestic</span>
+						</div>
+						<div style="font-size:30px;" class="col-xs-2">
+							$600
+						</div>
+						<div class="col-xs-1">
+							<button class="btn btn-default cancelbtn">
+								<span class="glyphicon glyphicon-remove"></span>
+							</button>
+						</div>
+					</div>
+				</td>				
+			</tr>
+		</tbody>
+	</table>
+
+	<div class="bodypart2">
+		<div class="row">
+			<div class="col-xs-4">
+				<div>Domestic</div>
+				<div style="font-size:30px;">
+					3<span class="glyphicon glyphicon-user"></span>x $300
+				</div>
+			</div>
+			<div class="col-xs-5">
+				<div>International</div>
+				<div style="font-size:30px;">
+					1<span class="glyphicon glyphicon-user"></span><span> x $600</span>
+				</div>
+			</div>
+			<div class="col-xs-3">
+				<div><b>Total  cost of waiver</b></div>
+				<div style="font-size:30px;">
+					<b>$1500</b>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<form class="bodypart3">
+		<div class="chargetext">Charge waiver cost to</div>
+		<div class="row">
+			<div class="col-xs-5" style="padding-right:0px;">
+				<div class="input-group  inputrow">
+					<!-- <div class="row"> -->
+					<span class="input-group-addon" style="border-radius:0;background-color:#8B8B83;">
+						<span class="glyphicon glyphicon-ok"></span>
+					</span>
+					<input type="text" class="form-control inputrow input-test" placeholder="COMPANY NAME" style="font-size:150%;border-right:none;">
+					<span class="input-group-addon" style="background-color:white;border-right:none;font-size:17px;border-radius:0;">
+						<button class="glyphicon glyphicon-search cancelbtn"></button> 
+					</span>
+				</div>
+			</div>
+			<div class="col-xs-4 bgcolor">
+				<div class="row">
+					<div class="col-xs-8"><span style="font-size: 15px;font-weight:bold;color:white;">AVAILABLE BALANCE</span></div>
+					<div class="col-xs-4"><span style="font-size: 18px;color:white;">$2,345,123</span></div>
+				</div>
+			</div>
+		</div>
+		<div class="row row2" style="padding-top:8px;">
+			<div class="col-xs-5" style="padding-right:0px;">
+				<div class="input-group inputrow">
+					<!-- <div class="row"> -->
+					<span class="input-group-addon" style="width:39px;border-radius:0;">
+
+					</span>
+					<input type="text" class="form-control inputrow input-test" 
+					placeholder="AGENCY" style="font-size:150%;border-right:none;">
+					<span class="input-group-addon" style="background-color:white;border-right:none;font-size:17px;border-radius:0;">	
+						<span class="dropdown">
+							<button class="glyphicon glyphicon-triangle-bottom cancelbtn dropdown-toggle "
+							data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+
+						</button> 	
+						<ul class="dropdown-menu">
+							<li><a>Link 1</a></li>
+							<li><a>Link 2</a></li>
+							<li><a>Link 3</a></li>
+						</ul>
+					</span>
+				</span>
+			</div>
+		</div>
+		<div class="col-xs-4 bgcolor">
+			<div class="row">
+				<div class="col-xs-8"><span style="font-size: 15px;font-weight:bold;color:white;">AVAILABLE BALANCE</span></div>
+				<div class="col-xs-4"><span style="font-size: 18px;color:white;">$2,345,123</span></div>
+			</div>
+		</div>
+	</div>		
+</form>
+
+<div class="bodypart4">
+	<div class="commenttext">Comments / waiver reason</div>
+	<form>
+		<div class="row" style="padding: 10px 0px;">
+			<div class="col-xs-12">
+				<textarea style="background-position: right top; background-repeat: no-repeat;" id="answerEditor" name="text" class="form-control mono wmd-input tabIndent-rendered" rows="6" placeholder=""></textarea>
+			</div>
+		</div>
+	</form>		
+</div>
+
+<div class="foot">
+	<div class="col-xs-12">
+		<div class="row">
+			<div class="col-xs-4 col-xs-offset-2">
+				<button class="btn btn-default newbtn" type="submit" style="color:white;font-weight:bold;">GO BACK</button>
+			</div>
+			<div class="col-xs-4">
+				<button class="btn btn-default newbtn" type="submit" style="color:white;font-weight:bold;">CONFIRM WAIVER</button>
+			</div>
+		</div>
+	</div>		
+</div>
+</body>
+</html>

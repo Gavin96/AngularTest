@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tablist</title>
+<style>
+        body {
+            padding: 40px;
+        }
+        .contentbody{
+          padding: 20px 0 0 10px;
+          margin: 1px 2px 3px 4px;
+        }
+</style>
+<link rel="stylesheet" href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css">
+</head>
+
+<body>
+<ul class="nav nav-tabs" role="tablist" id="myTab">
+  <li><a href="#first" role="tab" data-toggle="tab">第一项</a></li>
+  <li class="active"><a href="#second" role="tab" data-toggle="tab">第二项</a></li>
+  <li><a href="#third" role="tab" data-toggle="tab">第三项</a></li>
+  <li><a href="#fourth" role="tab" data-toggle="tab">第四项</a></li>
+</ul>
+ 
+<div class="tab-content contentbody">
+  <div class="tab-pane" id="first">
+      <p>Tab1</p>
+  </div>
+  <div class="tab-pane active" id="second">
+      <p>Tab2</p>
+  </div>
+  <div class="tab-pane" id="third">
+      <p>Tab3</p>
+  </div>
+  <div class="tab-pane" id="fourth">
+      <p>Tab4</p>   
+  </div>
+</div>
+ 
+<script>
+  $(function () {
+        $('#myTab a：[href="#second"]').tab('show');
+  })
+</script>
+
+
+<script src=" http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>

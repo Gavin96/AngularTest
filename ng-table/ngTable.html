@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>managed arrayTable</title>
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://rawgit.com/esvit/ng-table/master/dist/ng-table.min.css'>  
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular.min.js'></script>
+  <script src='https://rawgit.com/esvit/ng-table/master/dist/ng-table.min.js'></script>
+</head>
+
+<body>
+  <div ng-app="myApp">
+    <div ng-controller="demoController as demo">
+      <h2 class="page-header">Managed array</h2>
+      <div class="bs-callout bs-callout-info">
+        <h4>Overview</h4>
+        <!-- <p>When you have the <em>entire</em> dataset available in-memory you can hand this to <code>NgTableParams</code> to manage the filtering, sorting and paging of that array</p> -->
+      </div>
+      <table ng-table="demo.tableParams" class="table table-condensed table-bordered table-striped">
+        <tr ng-repeat="row in $data">
+          <td data-title="'Name'" filter="{name: 'text'}" sortable="'name'">{{row.name}}</td>
+          <td data-title="'Age'" filter="{age: 'number'}" sortable="'age'">{{row.age}}</td>
+          <td data-title="'Money'" filter="{money: 'number'}" sortable="'money'">{{row.money}}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <script src='nqjzro.js'></script>
+  <script src="index.js"></script>
+
+</body>
+</html>
